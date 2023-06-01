@@ -1,3 +1,3 @@
-public class Vehicle{
-   void start();
+interface Vehicle{
+   public void start();
 }
