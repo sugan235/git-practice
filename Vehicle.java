@@ -7,3 +7,9 @@ class Car implements Vehicle{
         System.out.println("Car has been started");
 }
 }
+class TestCar{
+    public static void main(String[]args){
+        Vehicle v=new Vehicle();
+        v.start();
+    }
+}
